@@ -1,0 +1,29 @@
+package creational.factoryMethod;
+
+abstract class Animal {
+    abstract void speak();
+}
+
+class Dog extends Animal {
+    void speak() {
+        System.out.println("Woof!");
+    }
+}
+
+class Cat extends Animal {
+    void speak() {
+        System.out.println("Meow!");
+    }
+}
+
+class AnimalFactory {
+    public static Animal createAnimal(String type) {
+        if (type.equals("Dog")) {
+            return new Dog();
+        } else if (type.equals("Cat")) {
+            return new Cat();
+        }
+        return null;
+    }
+}
+

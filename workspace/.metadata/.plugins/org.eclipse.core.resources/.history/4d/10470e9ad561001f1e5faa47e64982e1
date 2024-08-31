@@ -1,0 +1,21 @@
+package flipfit.service;
+
+import flipfit.dao.UserDao;
+import flipfit.model.User;
+import flipfit.utils.Constants;
+
+public class UserService {
+	
+	UserDao userDoa;
+	
+	public UserService() {
+		this.userDoa = new UserDao();
+	}
+	
+	public void register(String userName, String userType) {
+		int id = Constants.uniqueId++;
+		User user = new User(null, userName, userType);
+		this.userDoa.addUser(user);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Stack.java&apos; to &apos;DSA_450/src/stackAndQueue&apos;&#x0A;- Original project: &apos;6.Stack&apos;&#x0A;- Destination element: &apos;DSA_450/src/stackAndQueue&apos;&#x0A;- Original element: &apos;main.Stack.java&apos;" description="Copy compilation unit" destination="=DSA_450/src&lt;stackAndQueue" element1="/src&lt;main{Stack.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1711355255226" units="1" version="1.0"/>
+</session>

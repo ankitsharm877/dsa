@@ -1,0 +1,9 @@
+package flipfit.service;
+
+public class BookingService {
+
+	
+	public boolean bookSlot(Slot slot, String centerName, String workout) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package behavioral.chainOfResponsibility;
+
+public class ErrorLogger {
+
+}

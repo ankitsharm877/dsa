@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;main.Diagonal&apos; to &apos;DiagonalMatrix&apos;&#x0A;- Original project: &apos;5.Matrices&apos;&#x0A;- Original element: &apos;main.Diagonal&apos;&#x0A;- Renamed element: &apos;main.DiagonalMatrix&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Diagonal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;main{Diagonal.java[Diagonal" matchStrategy="1" name="DiagonalMatrix" qualified="false" references="true" similarDeclarations="false" stamp="1708920688555" textual="false" version="1.0"/>
+</session>

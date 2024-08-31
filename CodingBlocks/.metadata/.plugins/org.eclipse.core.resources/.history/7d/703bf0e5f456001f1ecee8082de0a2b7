@@ -1,0 +1,63 @@
+package behavioral.mediator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//The Mediator pattern defines an object that encapsulates how a set of objects interact. 
+//It promotes loose coupling by preventing objects from referring to each other explicitly and allows you to vary their interaction independently.
+
+//Mediator Interface
+interface ChatMediator {
+	void sendMessage(String message, User user);
+
+	void addUser(User user);
+}
+
+//Concrete Mediator
+class ChatMediatorImpl implements ChatMediator {
+	private List<User> users = new ArrayList<>();
+
+	public void addUser(User user) {
+		users.add(user);
+	}
+
+	public void sendMessage(String message, User user) {
+		for (User u : users) {
+			if (u != user) {
+				u.receive(message);
+			}
+		}
+	}
+}
+
+//User Class
+abstract class User {
+	protected ChatMediator mediator;
+	protected String name;
+
+	public User(ChatMediator mediator, String name) {
+		this.mediator = mediator;
+		this.name = name;
+	}
+
+	public abstract void send(String message);
+
+	public abstract void receive(String message);
+}
+
+//Concrete User
+class UserImpl extends User {
+	public UserImpl(ChatMediator mediator, String name) {
+		super(mediator, name);
+	}
+
+	public void send(String message) {
+		System.out.println(this.name + " sends: " + message);
+		mediator.sendMessage(message, this);
+	}
+
+	public void receive(String message) {
+		System.out.println(this.name + " receives: " + message);
+	}
+}
+

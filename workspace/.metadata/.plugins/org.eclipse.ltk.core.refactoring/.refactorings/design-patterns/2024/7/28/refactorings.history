@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;creational.Singleton&apos; to &apos;LazySingleton&apos;&#x0A;- Original project: &apos;design-patterns&apos;&#x0A;- Original element: &apos;creational.Singleton&apos;&#x0A;- Renamed element: &apos;creational.LazySingleton&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Singleton&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;creational{Singleton.java[Singleton" matchStrategy="1" name="LazySingleton" qualified="false" references="true" similarDeclarations="false" stamp="1720346528169" textual="false" version="1.0"/>
+</session>

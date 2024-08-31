@@ -1,0 +1,9 @@
+package flipfit.utils;
+
+public class Constants {
+	
+	public static long uniqueUserId = 0;
+	public static long uniqueGymId = 0;
+	public static long uniqueworkOutId = 0;
+
+}

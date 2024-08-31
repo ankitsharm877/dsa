@@ -1,0 +1,28 @@
+package flipfit.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import flipfit.model.Gym;
+
+public class GymDao {
+	
+	List<Gym> gyms;
+	
+	public GymDao() {
+		this.gyms = new ArrayList<>();
+	}
+
+	public void addGym(Gym gym) {
+		this.gyms.add(gym);
+	}
+	
+	public Optional<Gym> findGym(String name) {
+		return this.gyms.stream().filter(gym -> gym.getName().equals(name)).findFirst();
+	}
+
+	public Optional<Gym> findGym(String name, String workoutName) {
+		return this.gyms.stream().filter(gym -> gym.getName().equals(name)).findFirst();
+	}
+}

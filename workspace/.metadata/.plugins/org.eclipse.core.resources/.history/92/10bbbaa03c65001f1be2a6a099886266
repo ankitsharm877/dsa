@@ -1,0 +1,20 @@
+package demo;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+	
+		String s = "1234";
+		
+		System.out.println(parseInt(s));
+		
+	}
+	
+	public static int parseInt(String str) {
+		int ans = 0;
+		for (char ch : str.toCharArray()) {
+			ans = ans * 10 + (ch - '0');
+		}
+		return ans;
+	}
+}

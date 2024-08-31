@@ -1,0 +1,18 @@
+package flipfit.service;
+
+import flipfit.dao.UserDao;
+import flipfit.model.User;
+
+public class UserService {
+	
+	UserDao userDoa;
+	
+	public UserService() {
+		this.userDoa = new UserDao();
+	}
+	
+	public void register(User user) {
+		this.userDoa.addUser(user);
+	}
+
+}

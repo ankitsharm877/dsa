@@ -1,0 +1,18 @@
+package example5;
+
+import java.util.ArrayList;
+
+public class Day91 {
+
+	public static void main(String[] args) {
+		printPermutations("abc", "");
+		System.out.println(getPermutations("abc"));
+//		printSS("abc", "");
+//		System.out.println(getSS("abc"));
+	}
+	
+	public static void printPermutations(String str, String ans) {
+		
+	}
+
+}

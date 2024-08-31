@@ -1,0 +1,8 @@
+package flipfit.model;
+
+public class Workout {
+
+	private long id;
+	private String name;
+	private int maxSeats;
+}

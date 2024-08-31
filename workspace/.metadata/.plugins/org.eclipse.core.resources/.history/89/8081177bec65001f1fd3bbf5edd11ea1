@@ -1,0 +1,29 @@
+package demo;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+//class Singleton implements Serializable{
+//
+//    private static Singleton instance;
+//
+//    private Singleton() {
+//        if (instance != null) {
+//           // throw new Exception("");
+//        }
+//    }
+//
+//    public static Singleton getInstance() {
+//        if (instance == null) {
+//            instance = new Singleton();
+//        }
+//        return instance;
+//    }
+//    
+//}
+

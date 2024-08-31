@@ -1,0 +1,6 @@
+package structural.proxy;
+
+//The Proxy pattern provides a surrogate or placeholder for another object to control access to it. 
+//It is often used for lazy initialization, access control, logging, and more.
+
+

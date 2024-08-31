@@ -1,0 +1,13 @@
+package flipfit.model;
+
+import java.sql.Timestamp;
+
+public class Slot {
+	
+	private long id;
+	private Timestamp startTime;
+	private Timestamp endTime;
+	
+	
+
+}

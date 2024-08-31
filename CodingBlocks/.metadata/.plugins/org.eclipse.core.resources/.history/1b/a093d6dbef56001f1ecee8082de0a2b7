@@ -1,0 +1,4 @@
+package structural.bridge;
+
+//The Bridge pattern decouples an abstraction from its implementation so that the two can vary independently. 
+//It uses composition instead of inheritance to separate the interface and implementation.

@@ -1,0 +1,41 @@
+package flipfit.service;
+
+import java.sql.Timestamp;
+
+import flipfit.dao.GymDao;
+import flipfit.model.Gym;
+import flipfit.model.Slot;
+import flipfit.model.Workout;
+import flipfit.utils.Constants;
+
+public class GymService {
+	
+	GymDao gymDao;
+	
+	public GymService() {
+		this.gymDao = new GymDao();
+	}
+	
+	public void addCenter(String name, String city, String location, long lati, long longi) {
+		long id = Constants.uniqueGymId++;
+		Gym gym = new Gym(id, name, city, location, lati, longi);
+		this.gymDao.addGym(gym);
+	}
+
+	
+	public void addWorkout(String centerName, String workoutName) {
+		long id = Constants.uniqueworkoutId++;
+		Workout workout = new Workout(id, workoutName);
+		this.gymDao.addWorkout(centerName, workout);
+	}
+	
+	public void addSlot(String centerName, String workoutName, Timestamp startTime, int numberOfSeats, int queueSize) {
+		long id = Constants.uniqueslotId++;
+		Slot slot = new Slot(id, startTime, numberOfSeats, numberOfSeats, queueSize);
+		this.gymDao.addGymWorkoutSlot(centerName, workoutName, slot);
+	}
+	
+	public void deleteSlot(String centerName, String workoutName, Timestamp startTime) {
+		this.gymDao.deleteGymWorkoutSlot(centerName, workoutName, startTime);
+	}
+}

@@ -1,0 +1,18 @@
+package solid.isp;
+
+//Violates ISP
+interface Worker {
+ void work();
+ void eat();
+}
+
+class Robot implements Worker {
+ public void work() {
+     // Robot working code
+ }
+
+ public void eat() {
+     // Not applicable to robots
+ }
+}
+

@@ -1,0 +1,5 @@
+package flipfit.enums;
+
+public enum WORKOUT {
+
+}

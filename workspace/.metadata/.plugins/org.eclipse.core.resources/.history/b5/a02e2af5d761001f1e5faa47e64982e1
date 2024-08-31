@@ -1,0 +1,46 @@
+package flipfit.model;
+
+import java.sql.Timestamp;
+
+public class Slot {
+	
+	private long id;
+	private Timestamp startTime;
+	private int numberOfSeats;
+	private int numberOfBooking;
+	private int queueSize;
+	
+	
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public Timestamp getStartTime() {
+		return startTime;
+	}
+	public void setStartTime(Timestamp startTime) {
+		this.startTime = startTime;
+	}
+	public int getNumberOfSeats() {
+		return numberOfSeats;
+	}
+	public void setNumberOfSeats(int numberOfSeats) {
+		this.numberOfSeats = numberOfSeats;
+	}
+	public int getNumberOfBooking() {
+		return numberOfBooking;
+	}
+	public void setNumberOfBooking(int numberOfBooking) {
+		this.numberOfBooking = numberOfBooking;
+	}
+	public int getQueueSize() {
+		return queueSize;
+	}
+	public void setQueueSize(int queueSize) {
+		this.queueSize = queueSize;
+	}
+	
+}

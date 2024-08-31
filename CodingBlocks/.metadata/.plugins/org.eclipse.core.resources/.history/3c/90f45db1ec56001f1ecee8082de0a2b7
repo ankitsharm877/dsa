@@ -1,0 +1,10 @@
+package solid.dip;
+
+public class Switch {
+
+	public void press() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

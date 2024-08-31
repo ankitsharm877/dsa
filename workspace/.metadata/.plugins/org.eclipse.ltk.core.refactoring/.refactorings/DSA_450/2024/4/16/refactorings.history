@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;heap.qus2&apos; to &apos;heap.qus3&apos;&#x0A;- Original project: &apos;DSA_450&apos;&#x0A;- Original element: &apos;DSA_450/src/heap.qus2&apos;&#x0A;- Renamed element: &apos;DSA_450/src/heap.qus3&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;heap.qus2&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;heap.qus2" name="heap.qus3" qualified="false" references="true" stamp="1713103385783" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package flipfit.service;
+
+public class BookingService {
+
+}

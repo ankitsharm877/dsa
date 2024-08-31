@@ -1,0 +1,35 @@
+package flipfit.service;
+
+import java.util.Optional;
+
+import flipfit.dao.GymDao;
+import flipfit.model.Gym;
+import flipfit.model.Workout;
+import flipfit.utils.Constants;
+
+public class GymService {
+	
+	GymDao gymDao;
+	
+	public GymService() {
+		this.gymDao = new GymDao();
+	}
+	
+	public void addCenter(String name, String city, String location, long lati, long longi) {
+		long id = Constants.uniqueGymId++;
+		Gym gym = new Gym(id, name, city, location, lati, longi);
+		this.gymDao.addGym(gym);
+	}
+
+	
+	public void addWorkout(String centerName, String workName) {
+		Optional<Gym> gymOpt =this.gymDao.findGym(centerName);
+		if (gymOpt.isPresent()) {
+			Gym gym = gymOpt.get();
+			
+			long id = Constants.uniqueworkoutId++;
+			Workout workout = new Workout(id, workName);
+			gym.getWorkouts().add(workout);
+		}
+	}
+}

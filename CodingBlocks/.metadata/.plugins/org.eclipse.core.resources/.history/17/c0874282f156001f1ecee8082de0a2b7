@@ -1,0 +1,5 @@
+package structural.flyweight;
+
+//The Flyweight pattern reduces the memory footprint by sharing as much data as possible with similar objects. 
+//It is typically used to manage a large number of similar objects efficiently.
+

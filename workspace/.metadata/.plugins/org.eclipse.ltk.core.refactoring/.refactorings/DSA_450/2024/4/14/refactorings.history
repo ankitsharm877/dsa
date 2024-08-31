@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;bst.qus3.MinValue&apos; to &apos;MinMaxValue&apos;&#x0A;- Original project: &apos;DSA_450&apos;&#x0A;- Original element: &apos;bst.qus3.MinValue&apos;&#x0A;- Renamed element: &apos;bst.qus3.MinMaxValue&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MinValue&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;bst.qus3{MinValue.java[MinValue" matchStrategy="1" name="MinMaxValue" qualified="false" references="true" similarDeclarations="false" stamp="1712078653493" textual="false" version="1.0"/>
+</session>

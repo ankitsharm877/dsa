@@ -1,0 +1,7 @@
+package flipfit.utils;
+
+public class Constants {
+	
+	public static int uniqueId = 0;
+
+}

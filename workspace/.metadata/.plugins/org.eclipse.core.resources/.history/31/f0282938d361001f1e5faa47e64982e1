@@ -1,0 +1,12 @@
+package flipfit.model;
+
+public class Gym {
+	private String name;
+	private String city;
+	private String location;
+	private long lati;
+	private long longi;
+	
+	
+
+}

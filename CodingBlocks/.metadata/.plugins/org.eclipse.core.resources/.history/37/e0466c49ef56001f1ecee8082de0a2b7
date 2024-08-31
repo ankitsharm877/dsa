@@ -1,0 +1,30 @@
+package creational.prototype;
+
+class Shape implements Cloneable {
+    private String type;
+
+    public Shape(String type) {
+        this.type = type;
+    }
+
+    public Shape clone() throws CloneNotSupportedException {
+        return (Shape) super.clone();
+    }
+
+    public String getType() {
+        return type;
+    }
+}
+
+class PrototypePattern {
+    public static void main(String[] args) {
+        try {
+            Shape original = new Shape("Circle");
+            Shape copy = original.clone();
+            System.out.println(copy.getType()); // Output: Circle
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+

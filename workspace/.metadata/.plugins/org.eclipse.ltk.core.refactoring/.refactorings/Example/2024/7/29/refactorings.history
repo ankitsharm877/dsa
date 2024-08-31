@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;tavant.Demo&apos; to &apos;Round1&apos;&#x0A;- Original project: &apos;Example&apos;&#x0A;- Original element: &apos;tavant.Demo&apos;&#x0A;- Renamed element: &apos;tavant.Round1&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Demo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;tavant{Demo.java[Demo" matchStrategy="1" name="Round1" qualified="false" references="true" similarDeclarations="false" stamp="1721219256438" textual="false" version="1.0"/>
+</session>

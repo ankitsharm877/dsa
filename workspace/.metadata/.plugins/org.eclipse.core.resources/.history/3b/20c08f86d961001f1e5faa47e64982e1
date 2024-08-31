@@ -1,0 +1,47 @@
+package flipfit.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import flipfit.model.Gym;
+import flipfit.model.Workout;
+
+public class GymDao {
+	
+	List<Gym> gyms;
+	
+	public GymDao() {
+		this.gyms = new ArrayList<>();
+	}
+
+	public void addGym(Gym gym) {
+		this.gyms.add(gym);
+	}
+	
+	public Optional<Gym> findGym(String name) {
+		return this.gyms.stream().filter(gym -> gym.getName().equals(name)).findFirst();
+	}
+
+	public Optional<Workout> findGymWorkout(String name, String workoutName) {
+		Optional<Gym> gymOpt = this.gyms.stream().filter(gym -> gym.getName().equals(name)).findFirst();
+		if (gymOpt.isPresent()) {
+			Gym gym = gymOpt.get();
+			return gym.getWorkouts().stream().filter(workout -> workout.getName().equals(workoutName)).findFirst();
+			
+		} else {
+			return Optional.empty();
+		}
+	}
+	
+	public boolean deleteGymWorkoutSlot() {
+		Optional<Workout> workoutOpt = findGymWorkout(centerName, workoutName);
+		if (workoutOpt.isPresent()) {
+			Workout workout = workoutOpt.get();
+			
+			workout.getSlots().removeIf(slot -> slot.getStartTime().equals(startTime));
+		}
+	}
+	
+	
+}

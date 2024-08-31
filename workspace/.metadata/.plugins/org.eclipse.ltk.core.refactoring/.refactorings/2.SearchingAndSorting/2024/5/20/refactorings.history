@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sorting.IterativeMergeSorting&apos; to &apos;MergeSorting&apos;&#x0A;- Original project: &apos;2.SearchingAndSorting&apos;&#x0A;- Original element: &apos;sorting.IterativeMergeSorting&apos;&#x0A;- Renamed element: &apos;sorting.MergeSorting&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IterativeMergeSorting&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sorting{IterativeMergeSorting.java[IterativeMergeSorting" matchStrategy="1" name="MergeSorting" qualified="false" references="true" similarDeclarations="false" stamp="1715601360810" textual="false" version="1.0"/>
+</session>

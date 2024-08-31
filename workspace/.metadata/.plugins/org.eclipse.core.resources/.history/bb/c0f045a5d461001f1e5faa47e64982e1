@@ -1,0 +1,7 @@
+package flipfit.model;
+
+public enum USER_TYPES {
+	
+	FK_VIP_USER("FK_VIP_USER");
+
+}

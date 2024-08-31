@@ -1,0 +1,5 @@
+package flipfit.dao;
+
+public class UserDao {
+
+}

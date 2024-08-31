@@ -1,0 +1,5 @@
+package solid.ocp;
+
+//Open Closed Principle: Software entities (like classes, modules, and functions) should be open for extension but closed for modification. 
+//This means you can extend the functionality of a class without modifying its existing code, usually through inheritance or interfaces.
+}

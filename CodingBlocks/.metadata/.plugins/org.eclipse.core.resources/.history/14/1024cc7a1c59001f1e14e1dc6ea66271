@@ -1,0 +1,24 @@
+package example6;
+
+import java.util.Arrays;
+
+public class Day2 {
+
+	public static void main(String[] args) {
+		int[] arr = {10,30,20,60,50,40};
+		System.out.println(Arrays.toString(arr));
+		//bubbleSort(arr); // inplace
+		//selectionSort(arr); //inplace
+		//insertionSort(arr); //inplace
+		//arr = mergeSort(arr, 0 , arr.length - 1); // not inplace
+		quickSort(arr, 0, arr.length - 1); // inplace
+		System.out.println(Arrays.toString(arr));
+		
+		int[] arr1 = {10,20,30,40,50,60};
+		int[] arr2 = {5,15,25,35};
+		int[] merged = mergeTwoSortedArray(arr1, arr2);
+		System.out.println(Arrays.toString(merged));
+
+	}
+
+}

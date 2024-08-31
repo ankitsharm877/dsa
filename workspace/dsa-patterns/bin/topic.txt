@@ -1,0 +1,17 @@
+Major of these patterns are below:
+1. Sliding Window Pattern
+2. Two Pointer
+3. Fast & Slow Pointers
+4. Merge Intervals Pattern
+5. Cycle Sort Pattern
+6. In-place reversal of a Linked List
+7. Tree Breadth First Search
+8. Depth First Search (DFS)
+9. Two Heaps
+10. Subsets
+11. Modified Binary Search
+12. Bitwise XOR
+13. Top k elements
+14. K-way merge
+15. 0/1 Knapsack (DP)
+16. Topological sort (Graph)

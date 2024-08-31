@@ -1,0 +1,37 @@
+package example5;
+
+public class Day10 {
+
+	public static void main(String[] args) {
+		BinaryTree bt = new BinaryTree();
+		bt.root = new bt.Node(1);
+		bt.root = new bt.Node(1);
+
+	}
+
+}
+
+class BinaryTree {
+	private static class Node {
+		int data;
+		Node left;
+		Node right;
+		Node(int data) {
+			this.data = data;
+			this.left = null;
+			this.right = null;
+		}
+	}
+	
+	Node root = null;
+	
+	public void preOrder(Node root) {
+		if (root != null) {
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+	
+	
+}

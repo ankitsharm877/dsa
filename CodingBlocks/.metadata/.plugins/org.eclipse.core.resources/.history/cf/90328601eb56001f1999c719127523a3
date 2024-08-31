@@ -1,0 +1,16 @@
+package solid.ocp;
+
+//Open Closed Principle: classes should be open for extension but closed for modification. 
+//This means you can extend the functionality of a class without modifying its existing code, usually through inheritance or interfaces.
+
+//Violates OCP
+class Shape {
+ public double calculateArea(String shapeType) {
+     if (shapeType.equals("circle")) {
+         return Math.PI * radius * radius;
+     } else if (shapeType.equals("rectangle")) {
+         return length * breadth;
+     }
+     return 0;
+ }
+}

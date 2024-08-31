@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Content400&apos; to &apos;contest400&apos;&#x0A;- Original project: &apos;LeetCodeWeekly&apos;&#x0A;- Original element: &apos;LeetCodeWeekly/src/Content400&apos;&#x0A;- Renamed element: &apos;LeetCodeWeekly/src/contest400&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Content400&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Content400" name="contest400" qualified="false" references="true" stamp="1717856364677" textual="false" version="1.0"/>
+</session>

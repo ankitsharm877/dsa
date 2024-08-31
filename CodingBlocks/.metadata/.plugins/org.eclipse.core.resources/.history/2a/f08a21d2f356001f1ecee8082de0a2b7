@@ -1,0 +1,4 @@
+package behavioral.command;
+
+//The Command pattern encapsulates a request as an object, thereby allowing users to parameterize clients with queues, requests, and operations. 
+//It also provides support for undoable operations.

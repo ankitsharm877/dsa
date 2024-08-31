@@ -1,0 +1,12 @@
+package flipfit.service;
+
+import flipfit.model.Slot;
+import flipfit.model.User;
+
+public class BookingService {
+
+	
+	public boolean bookSlot(Slot slot, String centerName, String workout, User user) {
+		
+	}
+}

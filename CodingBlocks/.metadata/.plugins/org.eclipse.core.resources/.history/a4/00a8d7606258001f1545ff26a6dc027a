@@ -1,0 +1,23 @@
+package example5;
+
+public class Day10 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class BinaryTree {
+	private class Node {
+		int data;
+		Node left;
+		Node right;
+		Node (int data) {
+			this.data = data;
+		}
+	}
+	
+	
+}

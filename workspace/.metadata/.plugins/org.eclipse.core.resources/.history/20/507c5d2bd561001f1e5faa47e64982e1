@@ -1,0 +1,11 @@
+package flipfit.service;
+
+public class UserService {
+	
+	
+	
+	public void register(User user) {
+		
+	}
+
+}
